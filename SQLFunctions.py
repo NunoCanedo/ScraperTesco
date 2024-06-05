@@ -15,8 +15,8 @@ def sql_save_taxonomy(table_name, tree_data):
 
     db = mysql.connector.connect(
         host = 'localhost',
-        user = 'root',
-        passwd = '1001',
+        user = 'YourUserName',    ##INPUT YOUR OWN USERNAME
+        passwd = 'YourPasswor',    ## INPUT YOUR OWN PASSWORD
         database = 'SuperMarketScraper'
     )
     
@@ -52,8 +52,8 @@ def insert_values(page_data, table_name):
 
     db = mysql.connector.connect(
         host = 'localhost',
-        user = 'root',
-        passwd = '1001',
+        user = 'YourUserName',    ##INPUT YOUR OWN USERNAME
+        passwd = 'YourPasswor',    ## INPUT YOUR OWN PASSWORD
         database = 'SuperMarketScraper'
     )
 
